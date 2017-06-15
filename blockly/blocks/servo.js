@@ -59,7 +59,7 @@ Blockly.Blocks['servo_custom_attach'] = {
     this.appendDummyInput()
       //.appendField(new Blockly.FieldImage(Blockly.Blocks.servo.image, 64, 64))
       .appendField(Blockly.Msg.SERVO_ATTACH_TEXT1)
-      .appendField(new Blockly.FieldDropdown(profile.default.digital), "PIN")
+      .appendField(new Blockly.FieldDropdown(profile.default.digital), "PIN_CUSTOM")
       .appendField(Blockly.Msg.SERVO_ATTACH_TEXT2);
     this.appendDummyInput()
       .appendField(Blockly.Msg.SERVO_ATTACH_MIN_TEXT1)
